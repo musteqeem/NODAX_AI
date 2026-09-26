@@ -1,7 +1,7 @@
 {
   "name": "nodax-ai-whatsapp",
   "description": "NODAX deterministic WhatsApp command bot by Musteqeem",
-  "repository": "https://github.com/your-org/nodax-ai",
+  "repository": "https://github.com/musteqeem/nodax_ai",
   "keywords": ["whatsapp", "baileys", "bot", "nodejs"],
   "env": {
     "PAIRING_PHONE": { "description": "International phone number without +, spaces, or dashes", "required": true },
