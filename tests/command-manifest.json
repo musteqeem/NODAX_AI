@@ -1,0 +1,2634 @@
+{
+  "generated": "NODAX v3",
+  "purpose": "offline command audit manifest",
+  "commands": [
+    {
+      "category": "Group",
+      "name": "groupinfo",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".groupinfo"
+    },
+    {
+      "category": "Group",
+      "name": "grouplink",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".grouplink"
+    },
+    {
+      "category": "Group",
+      "name": "groupid",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".groupid"
+    },
+    {
+      "category": "Group",
+      "name": "admins",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".admins"
+    },
+    {
+      "category": "Group",
+      "name": "members",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".members"
+    },
+    {
+      "category": "Group",
+      "name": "tagall",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".tagall"
+    },
+    {
+      "category": "Group",
+      "name": "hidetag",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".hidetag"
+    },
+    {
+      "category": "Group",
+      "name": "mentionall",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".mentionall"
+    },
+    {
+      "category": "Group",
+      "name": "add",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".add"
+    },
+    {
+      "category": "Group",
+      "name": "remove",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".remove"
+    },
+    {
+      "category": "Group",
+      "name": "promote",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".promote"
+    },
+    {
+      "category": "Group",
+      "name": "demote",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".demote"
+    },
+    {
+      "category": "Group",
+      "name": "kick",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".kick"
+    },
+    {
+      "category": "Group",
+      "name": "warn",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".warn"
+    },
+    {
+      "category": "Group",
+      "name": "warns",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".warns"
+    },
+    {
+      "category": "Group",
+      "name": "clearwarns",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".clearwarns"
+    },
+    {
+      "category": "Group",
+      "name": "setrules",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".setrules"
+    },
+    {
+      "category": "Group",
+      "name": "rules",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".rules"
+    },
+    {
+      "category": "Group",
+      "name": "welcome",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".welcome"
+    },
+    {
+      "category": "Group",
+      "name": "goodbye",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".goodbye"
+    },
+    {
+      "category": "Group",
+      "name": "setwelcome",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".setwelcome"
+    },
+    {
+      "category": "Group",
+      "name": "setgoodbye",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".setgoodbye"
+    },
+    {
+      "category": "Group",
+      "name": "setsubject",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".setsubject"
+    },
+    {
+      "category": "Group",
+      "name": "setdesc",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".setdesc"
+    },
+    {
+      "category": "Group",
+      "name": "lock",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".lock"
+    },
+    {
+      "category": "Group",
+      "name": "unlock",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".unlock"
+    },
+    {
+      "category": "Group",
+      "name": "mute",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".mute"
+    },
+    {
+      "category": "Group",
+      "name": "unmute",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".unmute"
+    },
+    {
+      "category": "Group",
+      "name": "approve",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".approve"
+    },
+    {
+      "category": "Group",
+      "name": "reject",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".reject"
+    },
+    {
+      "category": "Group",
+      "name": "requests",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".requests"
+    },
+    {
+      "category": "Group",
+      "name": "invite",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".invite"
+    },
+    {
+      "category": "Group",
+      "name": "revoke",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".revoke"
+    },
+    {
+      "category": "Group",
+      "name": "groupstats",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".groupstats"
+    },
+    {
+      "category": "Group",
+      "name": "membercount",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".membercount"
+    },
+    {
+      "category": "Group",
+      "name": "setlang",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".setlang"
+    },
+    {
+      "category": "Group",
+      "name": "grouphelp",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".grouphelp"
+    },
+    {
+      "category": "Group",
+      "name": "unknown",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".unknown"
+    },
+    {
+      "category": "Group",
+      "name": "off",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".off"
+    },
+    {
+      "category": "Group",
+      "name": "Members",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".Members"
+    },
+    {
+      "category": "Group",
+      "name": "Warnings",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".Warnings"
+    },
+    {
+      "category": "Group",
+      "name": "Welcome",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".Welcome"
+    },
+    {
+      "category": "Group",
+      "name": "OFF",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".OFF"
+    },
+    {
+      "category": "Group",
+      "name": "Goodbye",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".Goodbye"
+    },
+    {
+      "category": "Group",
+      "name": "Group",
+      "source": "src/commands/Group/core.js",
+      "smoke": ".Group"
+    },
+    {
+      "category": "Media",
+      "name": "sticker",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".sticker"
+    },
+    {
+      "category": "Media",
+      "name": "toimg",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".toimg"
+    },
+    {
+      "category": "Media",
+      "name": "tovideo",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".tovideo"
+    },
+    {
+      "category": "Media",
+      "name": "toaudio",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".toaudio"
+    },
+    {
+      "category": "Media",
+      "name": "tomp3",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".tomp3"
+    },
+    {
+      "category": "Media",
+      "name": "resize",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".resize"
+    },
+    {
+      "category": "Media",
+      "name": "crop",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".crop"
+    },
+    {
+      "category": "Media",
+      "name": "rotate",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".rotate"
+    },
+    {
+      "category": "Media",
+      "name": "flip",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".flip"
+    },
+    {
+      "category": "Media",
+      "name": "mirror",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".mirror"
+    },
+    {
+      "category": "Media",
+      "name": "blur",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".blur"
+    },
+    {
+      "category": "Media",
+      "name": "sharpen",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".sharpen"
+    },
+    {
+      "category": "Media",
+      "name": "compress",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".compress"
+    },
+    {
+      "category": "Media",
+      "name": "metadata",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".metadata"
+    },
+    {
+      "category": "Media",
+      "name": "mimetype",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".mimetype"
+    },
+    {
+      "category": "Media",
+      "name": "filesize",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".filesize"
+    },
+    {
+      "category": "Media",
+      "name": "mediainfo",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".mediainfo"
+    },
+    {
+      "category": "Media",
+      "name": "caption",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".caption"
+    },
+    {
+      "category": "Media",
+      "name": "repack",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".repack"
+    },
+    {
+      "category": "Media",
+      "name": "thumbnail",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".thumbnail"
+    },
+    {
+      "category": "Media",
+      "name": "watermark",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".watermark"
+    },
+    {
+      "category": "Media",
+      "name": "removebg",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".removebg"
+    },
+    {
+      "category": "Media",
+      "name": "barcode",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".barcode"
+    },
+    {
+      "category": "Media",
+      "name": "ocr",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".ocr"
+    },
+    {
+      "category": "Media",
+      "name": "translateimage",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".translateimage"
+    },
+    {
+      "category": "Media",
+      "name": "scan",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".scan"
+    },
+    {
+      "category": "Media",
+      "name": "palette",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".palette"
+    },
+    {
+      "category": "Media",
+      "name": "dominant",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".dominant"
+    },
+    {
+      "category": "Media",
+      "name": "frames",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".frames"
+    },
+    {
+      "category": "Media",
+      "name": "gif",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".gif"
+    },
+    {
+      "category": "Media",
+      "name": "webp",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".webp"
+    },
+    {
+      "category": "Media",
+      "name": "jpg",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".jpg"
+    },
+    {
+      "category": "Media",
+      "name": "png",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".png"
+    },
+    {
+      "category": "Media",
+      "name": "mp4",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".mp4"
+    },
+    {
+      "category": "Media",
+      "name": "mp3",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".mp3"
+    },
+    {
+      "category": "Media",
+      "name": "wav",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".wav"
+    },
+    {
+      "category": "Media",
+      "name": "document",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".document"
+    },
+    {
+      "category": "Media",
+      "name": "contactcard",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".contactcard"
+    },
+    {
+      "category": "Media",
+      "name": "vcard",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".vcard"
+    },
+    {
+      "category": "Media",
+      "name": "textpro",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".textpro"
+    },
+    {
+      "category": "Media",
+      "name": "ephoto",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".ephoto"
+    },
+    {
+      "category": "Media",
+      "name": "photooxy",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".photooxy"
+    },
+    {
+      "category": "Media",
+      "name": "makerhelp",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".makerhelp"
+    },
+    {
+      "category": "Media",
+      "name": "mumaker",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".mumaker"
+    },
+    {
+      "category": "Media",
+      "name": "text",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".text"
+    },
+    {
+      "category": "Media",
+      "name": "Media",
+      "source": "src/commands/Media/core.js",
+      "smoke": ".Media"
+    },
+    {
+      "category": "Owner",
+      "name": "owner",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".owner"
+    },
+    {
+      "category": "Owner",
+      "name": "ownerid",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".ownerid"
+    },
+    {
+      "category": "Owner",
+      "name": "reload",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".reload"
+    },
+    {
+      "category": "Owner",
+      "name": "restart",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".restart"
+    },
+    {
+      "category": "Owner",
+      "name": "shutdown",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".shutdown"
+    },
+    {
+      "category": "Owner",
+      "name": "broadcast",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".broadcast"
+    },
+    {
+      "category": "Owner",
+      "name": "setvar",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".setvar"
+    },
+    {
+      "category": "Owner",
+      "name": "getvar",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".getvar"
+    },
+    {
+      "category": "Owner",
+      "name": "delvar",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".delvar"
+    },
+    {
+      "category": "Owner",
+      "name": "envkeys",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".envkeys"
+    },
+    {
+      "category": "Owner",
+      "name": "logs",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".logs"
+    },
+    {
+      "category": "Owner",
+      "name": "clearlogs",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".clearlogs"
+    },
+    {
+      "category": "Owner",
+      "name": "stats",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".stats"
+    },
+    {
+      "category": "Owner",
+      "name": "registry",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".registry"
+    },
+    {
+      "category": "Owner",
+      "name": "errors",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".errors"
+    },
+    {
+      "category": "Owner",
+      "name": "doctor",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".doctor"
+    },
+    {
+      "category": "Owner",
+      "name": "sessionstatus",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".sessionstatus"
+    },
+    {
+      "category": "Owner",
+      "name": "setprefix",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".setprefix"
+    },
+    {
+      "category": "Owner",
+      "name": "setbotname",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".setbotname"
+    },
+    {
+      "category": "Owner",
+      "name": "setnewsletter",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".setnewsletter"
+    },
+    {
+      "category": "Owner",
+      "name": "setsecurelabel",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".setsecurelabel"
+    },
+    {
+      "category": "Owner",
+      "name": "setaibadge",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".setaibadge"
+    },
+    {
+      "category": "Owner",
+      "name": "maintenance",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".maintenance"
+    },
+    {
+      "category": "Owner",
+      "name": "debug",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".debug"
+    },
+    {
+      "category": "Owner",
+      "name": "Commands",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".Commands"
+    },
+    {
+      "category": "Owner",
+      "name": "Categories",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".Categories"
+    },
+    {
+      "category": "Owner",
+      "name": "Groups",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".Groups"
+    },
+    {
+      "category": "Owner",
+      "name": "Logs",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".Logs"
+    },
+    {
+      "category": "Owner",
+      "name": "sessions",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".sessions"
+    },
+    {
+      "category": "Owner",
+      "name": "true",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".true"
+    },
+    {
+      "category": "Owner",
+      "name": "Owner",
+      "source": "src/commands/Owner/core.js",
+      "smoke": ".Owner"
+    },
+    {
+      "category": "Defense",
+      "name": "antilink",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antilink"
+    },
+    {
+      "category": "Defense",
+      "name": "antiinvite",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiinvite"
+    },
+    {
+      "category": "Defense",
+      "name": "antispam",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antispam"
+    },
+    {
+      "category": "Defense",
+      "name": "antiflood",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiflood"
+    },
+    {
+      "category": "Defense",
+      "name": "anticaps",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".anticaps"
+    },
+    {
+      "category": "Defense",
+      "name": "antiemoji",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiemoji"
+    },
+    {
+      "category": "Defense",
+      "name": "antitag",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antitag"
+    },
+    {
+      "category": "Defense",
+      "name": "antiword",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiword"
+    },
+    {
+      "category": "Defense",
+      "name": "antiscam",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiscam"
+    },
+    {
+      "category": "Defense",
+      "name": "antiphishing",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiphishing"
+    },
+    {
+      "category": "Defense",
+      "name": "antirepeat",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antirepeat"
+    },
+    {
+      "category": "Defense",
+      "name": "antilongtext",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antilongtext"
+    },
+    {
+      "category": "Defense",
+      "name": "antiunicode",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiunicode"
+    },
+    {
+      "category": "Defense",
+      "name": "antiforward",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiforward"
+    },
+    {
+      "category": "Defense",
+      "name": "antiimage",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiimage"
+    },
+    {
+      "category": "Defense",
+      "name": "antivideo",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antivideo"
+    },
+    {
+      "category": "Defense",
+      "name": "antiaudio",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiaudio"
+    },
+    {
+      "category": "Defense",
+      "name": "antisticker",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antisticker"
+    },
+    {
+      "category": "Defense",
+      "name": "antidocument",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antidocument"
+    },
+    {
+      "category": "Defense",
+      "name": "anticontact",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".anticontact"
+    },
+    {
+      "category": "Defense",
+      "name": "antilocation",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antilocation"
+    },
+    {
+      "category": "Defense",
+      "name": "antipoll",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antipoll"
+    },
+    {
+      "category": "Defense",
+      "name": "antiviewonce",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antiviewonce"
+    },
+    {
+      "category": "Defense",
+      "name": "anticall",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".anticall"
+    },
+    {
+      "category": "Defense",
+      "name": "antibot",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antibot"
+    },
+    {
+      "category": "Defense",
+      "name": "antistatus",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antistatus"
+    },
+    {
+      "category": "Defense",
+      "name": "antidisappearing",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antidisappearing"
+    },
+    {
+      "category": "Defense",
+      "name": "antighost",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".antighost"
+    },
+    {
+      "category": "Defense",
+      "name": "aii",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".aii"
+    },
+    {
+      "category": "Defense",
+      "name": "atag",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".atag"
+    },
+    {
+      "category": "Defense",
+      "name": "aword",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".aword"
+    },
+    {
+      "category": "Defense",
+      "name": "ascam",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".ascam"
+    },
+    {
+      "category": "Defense",
+      "name": "Defense",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".Defense"
+    },
+    {
+      "category": "Defense",
+      "name": "status",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".status"
+    },
+    {
+      "category": "Defense",
+      "name": "off",
+      "source": "src/commands/Defense/core.js",
+      "smoke": ".off"
+    },
+    {
+      "category": "Science",
+      "name": "Hydrogen",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Hydrogen"
+    },
+    {
+      "category": "Science",
+      "name": "Helium",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Helium"
+    },
+    {
+      "category": "Science",
+      "name": "Carbon",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Carbon"
+    },
+    {
+      "category": "Science",
+      "name": "Nitrogen",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Nitrogen"
+    },
+    {
+      "category": "Science",
+      "name": "Oxygen",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Oxygen"
+    },
+    {
+      "category": "Science",
+      "name": "Sodium",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Sodium"
+    },
+    {
+      "category": "Science",
+      "name": "Chlorine",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Chlorine"
+    },
+    {
+      "category": "Science",
+      "name": "Iron",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Iron"
+    },
+    {
+      "category": "Science",
+      "name": "Calcium",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Calcium"
+    },
+    {
+      "category": "Science",
+      "name": "Copper",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Copper"
+    },
+    {
+      "category": "Science",
+      "name": "Magnesium",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Magnesium"
+    },
+    {
+      "category": "Science",
+      "name": "Sulfur",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Sulfur"
+    },
+    {
+      "category": "Science",
+      "name": "Potassium",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Potassium"
+    },
+    {
+      "category": "Science",
+      "name": "physicsquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".physicsquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Physics",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Physics"
+    },
+    {
+      "category": "Science",
+      "name": "force",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".force"
+    },
+    {
+      "category": "Science",
+      "name": "chemquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".chemquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Chemistry",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Chemistry"
+    },
+    {
+      "category": "Science",
+      "name": "biologyquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".biologyquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Biology",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Biology"
+    },
+    {
+      "category": "Science",
+      "name": "mitochondrion",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".mitochondrion"
+    },
+    {
+      "category": "Science",
+      "name": "mathquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".mathquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Mathematics",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Mathematics"
+    },
+    {
+      "category": "Science",
+      "name": "astronomyquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".astronomyquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Astronomy",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Astronomy"
+    },
+    {
+      "category": "Science",
+      "name": "sun",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".sun"
+    },
+    {
+      "category": "Science",
+      "name": "earthquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".earthquiz"
+    },
+    {
+      "category": "Science",
+      "name": "mantle",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".mantle"
+    },
+    {
+      "category": "Science",
+      "name": "geneticsquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".geneticsquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Genetics",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Genetics"
+    },
+    {
+      "category": "Science",
+      "name": "dna",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".dna"
+    },
+    {
+      "category": "Science",
+      "name": "ecologyquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".ecologyquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Ecology",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Ecology"
+    },
+    {
+      "category": "Science",
+      "name": "producers",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".producers"
+    },
+    {
+      "category": "Science",
+      "name": "anatomyquiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".anatomyquiz"
+    },
+    {
+      "category": "Science",
+      "name": "Anatomy",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Anatomy"
+    },
+    {
+      "category": "Science",
+      "name": "heart",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".heart"
+    },
+    {
+      "category": "Science",
+      "name": "spacequiz",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".spacequiz"
+    },
+    {
+      "category": "Science",
+      "name": "Space",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Space"
+    },
+    {
+      "category": "Science",
+      "name": "jupiter",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".jupiter"
+    },
+    {
+      "category": "Science",
+      "name": "Science",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Science"
+    },
+    {
+      "category": "Science",
+      "name": "element",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".element"
+    },
+    {
+      "category": "Science",
+      "name": "formula",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".formula"
+    },
+    {
+      "category": "Science",
+      "name": "molar",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".molar"
+    },
+    {
+      "category": "Science",
+      "name": "unitconvert",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".unitconvert"
+    },
+    {
+      "category": "Science",
+      "name": "equation",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".equation"
+    },
+    {
+      "category": "Science",
+      "name": "physicsformula",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".physicsformula"
+    },
+    {
+      "category": "Science",
+      "name": "scientific",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".scientific"
+    },
+    {
+      "category": "Science",
+      "name": "sciencehelp",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".sciencehelp"
+    },
+    {
+      "category": "Science",
+      "name": "periodic",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".periodic"
+    },
+    {
+      "category": "Science",
+      "name": "Symbol",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Symbol"
+    },
+    {
+      "category": "Science",
+      "name": "Element",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Element"
+    },
+    {
+      "category": "Science",
+      "name": "Mass",
+      "source": "src/commands/Science/core.js",
+      "smoke": ".Mass"
+    },
+    {
+      "category": "Rich",
+      "name": "menu",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".menu"
+    },
+    {
+      "category": "Rich",
+      "name": "richhelp",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richhelp"
+    },
+    {
+      "category": "Rich",
+      "name": "richstatus",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richstatus"
+    },
+    {
+      "category": "Rich",
+      "name": "richstats",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richstats"
+    },
+    {
+      "category": "Rich",
+      "name": "richprofile",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richprofile"
+    },
+    {
+      "category": "Rich",
+      "name": "richtable",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richtable"
+    },
+    {
+      "category": "Rich",
+      "name": "richprogress",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richprogress"
+    },
+    {
+      "category": "Rich",
+      "name": "richcard",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcard"
+    },
+    {
+      "category": "Rich",
+      "name": "richquote",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richquote"
+    },
+    {
+      "category": "Rich",
+      "name": "richweather",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richweather"
+    },
+    {
+      "category": "Rich",
+      "name": "richcountry",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcountry"
+    },
+    {
+      "category": "Rich",
+      "name": "richgithub",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richgithub"
+    },
+    {
+      "category": "Rich",
+      "name": "richnpm",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richnpm"
+    },
+    {
+      "category": "Rich",
+      "name": "richscience",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richscience"
+    },
+    {
+      "category": "Rich",
+      "name": "richquiz",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richquiz"
+    },
+    {
+      "category": "Rich",
+      "name": "richgame",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richgame"
+    },
+    {
+      "category": "Rich",
+      "name": "richgroup",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richgroup"
+    },
+    {
+      "category": "Rich",
+      "name": "richdefense",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richdefense"
+    },
+    {
+      "category": "Rich",
+      "name": "richapi",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richapi"
+    },
+    {
+      "category": "Rich",
+      "name": "richlanguage",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richlanguage"
+    },
+    {
+      "category": "Rich",
+      "name": "richserver",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richserver"
+    },
+    {
+      "category": "Rich",
+      "name": "richuptime",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richuptime"
+    },
+    {
+      "category": "Rich",
+      "name": "richmemory",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richmemory"
+    },
+    {
+      "category": "Rich",
+      "name": "richcommands",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcommands"
+    },
+    {
+      "category": "Rich",
+      "name": "richcategories",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcategories"
+    },
+    {
+      "category": "Rich",
+      "name": "richowner",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richowner"
+    },
+    {
+      "category": "Rich",
+      "name": "richabout",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richabout"
+    },
+    {
+      "category": "Rich",
+      "name": "richwelcome",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richwelcome"
+    },
+    {
+      "category": "Rich",
+      "name": "richrules",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richrules"
+    },
+    {
+      "category": "Rich",
+      "name": "richwarning",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richwarning"
+    },
+    {
+      "category": "Rich",
+      "name": "richscore",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richscore"
+    },
+    {
+      "category": "Rich",
+      "name": "richleaderboard",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richleaderboard"
+    },
+    {
+      "category": "Rich",
+      "name": "richfacts",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richfacts"
+    },
+    {
+      "category": "Rich",
+      "name": "richformula",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richformula"
+    },
+    {
+      "category": "Rich",
+      "name": "richperiodic",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richperiodic"
+    },
+    {
+      "category": "Rich",
+      "name": "richconvert",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richconvert"
+    },
+    {
+      "category": "Rich",
+      "name": "richcalculator",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcalculator"
+    },
+    {
+      "category": "Rich",
+      "name": "richtext",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richtext"
+    },
+    {
+      "category": "Rich",
+      "name": "richcode",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcode"
+    },
+    {
+      "category": "Rich",
+      "name": "richjson",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richjson"
+    },
+    {
+      "category": "Rich",
+      "name": "richlist",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richlist"
+    },
+    {
+      "category": "Rich",
+      "name": "richtags",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richtags"
+    },
+    {
+      "category": "Rich",
+      "name": "richlinks",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richlinks"
+    },
+    {
+      "category": "Rich",
+      "name": "richcontact",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcontact"
+    },
+    {
+      "category": "Rich",
+      "name": "richbadge",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richbadge"
+    },
+    {
+      "category": "Rich",
+      "name": "richfooter",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richfooter"
+    },
+    {
+      "category": "Rich",
+      "name": "richheader",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richheader"
+    },
+    {
+      "category": "Rich",
+      "name": "richalert",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richalert"
+    },
+    {
+      "category": "Rich",
+      "name": "richnotice",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richnotice"
+    },
+    {
+      "category": "Rich",
+      "name": "richsuccess",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richsuccess"
+    },
+    {
+      "category": "Rich",
+      "name": "richerror",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richerror"
+    },
+    {
+      "category": "Rich",
+      "name": "richloading",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richloading"
+    },
+    {
+      "category": "Rich",
+      "name": "richsearch",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richsearch"
+    },
+    {
+      "category": "Rich",
+      "name": "richnews",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richnews"
+    },
+    {
+      "category": "Rich",
+      "name": "richbook",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richbook"
+    },
+    {
+      "category": "Rich",
+      "name": "richdictionary",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richdictionary"
+    },
+    {
+      "category": "Rich",
+      "name": "richtranslate",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richtranslate"
+    },
+    {
+      "category": "Rich",
+      "name": "richcurrency",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcurrency"
+    },
+    {
+      "category": "Rich",
+      "name": "richcrypto",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richcrypto"
+    },
+    {
+      "category": "Rich",
+      "name": "richpackage",
+      "source": "src/commands/Rich/core.js",
+      "smoke": ".richpackage"
+    },
+    {
+      "category": "Utility",
+      "name": "ping",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".ping"
+    },
+    {
+      "category": "Utility",
+      "name": "uptime",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".uptime"
+    },
+    {
+      "category": "Utility",
+      "name": "time",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".time"
+    },
+    {
+      "category": "Utility",
+      "name": "date",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".date"
+    },
+    {
+      "category": "Utility",
+      "name": "serverinfo",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".serverinfo"
+    },
+    {
+      "category": "Utility",
+      "name": "hash",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".hash"
+    },
+    {
+      "category": "Utility",
+      "name": "echo",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".echo"
+    },
+    {
+      "category": "Utility",
+      "name": "upper",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".upper"
+    },
+    {
+      "category": "Utility",
+      "name": "lower",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".lower"
+    },
+    {
+      "category": "Utility",
+      "name": "reverse",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".reverse"
+    },
+    {
+      "category": "Utility",
+      "name": "length",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".length"
+    },
+    {
+      "category": "Utility",
+      "name": "base64",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".base64"
+    },
+    {
+      "category": "Utility",
+      "name": "unbase64",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".unbase64"
+    },
+    {
+      "category": "Utility",
+      "name": "choose",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".choose"
+    },
+    {
+      "category": "Utility",
+      "name": "help",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".help"
+    },
+    {
+      "category": "Utility",
+      "name": "categories",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".categories"
+    },
+    {
+      "category": "Utility",
+      "name": "commands",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".commands"
+    },
+    {
+      "category": "Utility",
+      "name": "botinfo",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".botinfo"
+    },
+    {
+      "category": "Utility",
+      "name": "status",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".status"
+    },
+    {
+      "category": "Utility",
+      "name": "uuid",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".uuid"
+    },
+    {
+      "category": "Utility",
+      "name": "timestamp",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".timestamp"
+    },
+    {
+      "category": "Utility",
+      "name": "binary",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".binary"
+    },
+    {
+      "category": "Utility",
+      "name": "hex",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".hex"
+    },
+    {
+      "category": "Utility",
+      "name": "urlencode",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".urlencode"
+    },
+    {
+      "category": "Utility",
+      "name": "urldecode",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".urldecode"
+    },
+    {
+      "category": "Utility",
+      "name": "slug",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".slug"
+    },
+    {
+      "category": "Utility",
+      "name": "trim",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".trim"
+    },
+    {
+      "category": "Utility",
+      "name": "dedupe",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".dedupe"
+    },
+    {
+      "category": "Utility",
+      "name": "count",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".count"
+    },
+    {
+      "category": "Utility",
+      "name": "repeat",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".repeat"
+    },
+    {
+      "category": "Utility",
+      "name": "palindrome",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".palindrome"
+    },
+    {
+      "category": "Utility",
+      "name": "average",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".average"
+    },
+    {
+      "category": "Utility",
+      "name": "min",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".min"
+    },
+    {
+      "category": "Utility",
+      "name": "max",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".max"
+    },
+    {
+      "category": "Utility",
+      "name": "sum",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".sum"
+    },
+    {
+      "category": "Utility",
+      "name": "sqrt",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".sqrt"
+    },
+    {
+      "category": "Utility",
+      "name": "power",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".power"
+    },
+    {
+      "category": "Utility",
+      "name": "factorial",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".factorial"
+    },
+    {
+      "category": "Utility",
+      "name": "prime",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".prime"
+    },
+    {
+      "category": "Utility",
+      "name": "fibonacci",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".fibonacci"
+    },
+    {
+      "category": "Utility",
+      "name": "countrylist",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".countrylist"
+    },
+    {
+      "category": "Utility",
+      "name": "lang",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".lang"
+    },
+    {
+      "category": "Utility",
+      "name": "Utility",
+      "source": "src/commands/Utility/core.js",
+      "smoke": ".Utility"
+    },
+    {
+      "category": "Web",
+      "name": "weather",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".weather"
+    },
+    {
+      "category": "Web",
+      "name": "wiki",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".wiki"
+    },
+    {
+      "category": "Web",
+      "name": "define",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".define"
+    },
+    {
+      "category": "Web",
+      "name": "joke",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".joke"
+    },
+    {
+      "category": "Web",
+      "name": "country",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".country"
+    },
+    {
+      "category": "Web",
+      "name": "github",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".github"
+    },
+    {
+      "category": "Web",
+      "name": "quoteapi",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".quoteapi"
+    },
+    {
+      "category": "Web",
+      "name": "advice",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".advice"
+    },
+    {
+      "category": "Web",
+      "name": "ipinfo",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".ipinfo"
+    },
+    {
+      "category": "Web",
+      "name": "crypto",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".crypto"
+    },
+    {
+      "category": "Web",
+      "name": "npm",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".npm"
+    },
+    {
+      "category": "Web",
+      "name": "exchange",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".exchange"
+    },
+    {
+      "category": "Web",
+      "name": "translate",
+      "source": "src/commands/Web/core.js",
+      "smoke": ".translate"
+    },
+    {
+      "category": "Games",
+      "name": "quiz",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".quiz"
+    },
+    {
+      "category": "Games",
+      "name": "sciencequiz",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".sciencequiz"
+    },
+    {
+      "category": "Games",
+      "name": "math",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".math"
+    },
+    {
+      "category": "Games",
+      "name": "word",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".word"
+    },
+    {
+      "category": "Games",
+      "name": "typing",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".typing"
+    },
+    {
+      "category": "Games",
+      "name": "reaction",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".reaction"
+    },
+    {
+      "category": "Games",
+      "name": "number",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".number"
+    },
+    {
+      "category": "Games",
+      "name": "rps",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".rps"
+    },
+    {
+      "category": "Games",
+      "name": "hangman",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".hangman"
+    },
+    {
+      "category": "Games",
+      "name": "memory",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".memory"
+    },
+    {
+      "category": "Games",
+      "name": "trivia",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".trivia"
+    },
+    {
+      "category": "Games",
+      "name": "capital",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".capital"
+    },
+    {
+      "category": "Games",
+      "name": "elementgame",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".elementgame"
+    },
+    {
+      "category": "Games",
+      "name": "anagram",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".anagram"
+    },
+    {
+      "category": "Games",
+      "name": "oddone",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".oddone"
+    },
+    {
+      "category": "Games",
+      "name": "sequence",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".sequence"
+    },
+    {
+      "category": "Games",
+      "name": "truefalse",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".truefalse"
+    },
+    {
+      "category": "Games",
+      "name": "equationgame",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".equationgame"
+    },
+    {
+      "category": "Games",
+      "name": "fractiongame",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".fractiongame"
+    },
+    {
+      "category": "Games",
+      "name": "percentgame",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".percentgame"
+    },
+    {
+      "category": "Games",
+      "name": "speedmath",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".speedmath"
+    },
+    {
+      "category": "Games",
+      "name": "vocab",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".vocab"
+    },
+    {
+      "category": "Games",
+      "name": "spelling",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".spelling"
+    },
+    {
+      "category": "Games",
+      "name": "synonym",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".synonym"
+    },
+    {
+      "category": "Games",
+      "name": "antonym",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".antonym"
+    },
+    {
+      "category": "Games",
+      "name": "pattern",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".pattern"
+    },
+    {
+      "category": "Games",
+      "name": "logic",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".logic"
+    },
+    {
+      "category": "Games",
+      "name": "riddle",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".riddle"
+    },
+    {
+      "category": "Games",
+      "name": "geographygame",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".geographygame"
+    },
+    {
+      "category": "Games",
+      "name": "biology",
+      "source": "src/commands/Games/core.js",
+      "smoke": ".biology"
+    },
+    {
+      "category": "Education",
+      "name": "Education",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".Education"
+    },
+    {
+      "category": "Education",
+      "name": "study",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".study"
+    },
+    {
+      "category": "Education",
+      "name": "revision",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".revision"
+    },
+    {
+      "category": "Education",
+      "name": "flashcard",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".flashcard"
+    },
+    {
+      "category": "Education",
+      "name": "flashcards",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".flashcards"
+    },
+    {
+      "category": "Education",
+      "name": "timetable",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".timetable"
+    },
+    {
+      "category": "Education",
+      "name": "pomodoro",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".pomodoro"
+    },
+    {
+      "category": "Education",
+      "name": "focus",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".focus"
+    },
+    {
+      "category": "Education",
+      "name": "exam",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".exam"
+    },
+    {
+      "category": "Education",
+      "name": "examplan",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".examplan"
+    },
+    {
+      "category": "Education",
+      "name": "essay",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".essay"
+    },
+    {
+      "category": "Education",
+      "name": "summary",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".summary"
+    },
+    {
+      "category": "Education",
+      "name": "notes",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".notes"
+    },
+    {
+      "category": "Education",
+      "name": "notemaker",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".notemaker"
+    },
+    {
+      "category": "Education",
+      "name": "definition",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".definition"
+    },
+    {
+      "category": "Education",
+      "name": "explain",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".explain"
+    },
+    {
+      "category": "Education",
+      "name": "simplify",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".simplify"
+    },
+    {
+      "category": "Education",
+      "name": "memorize",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".memorize"
+    },
+    {
+      "category": "Education",
+      "name": "mnemonic",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".mnemonic"
+    },
+    {
+      "category": "Education",
+      "name": "activerecall",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".activerecall"
+    },
+    {
+      "category": "Education",
+      "name": "spacedrepetition",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".spacedrepetition"
+    },
+    {
+      "category": "Education",
+      "name": "pastpaper",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".pastpaper"
+    },
+    {
+      "category": "Education",
+      "name": "markscheme",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".markscheme"
+    },
+    {
+      "category": "Education",
+      "name": "grade",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".grade"
+    },
+    {
+      "category": "Education",
+      "name": "gpa",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".gpa"
+    },
+    {
+      "category": "Education",
+      "name": "percentage",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".percentage"
+    },
+    {
+      "category": "Education",
+      "name": "fraction",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".fraction"
+    },
+    {
+      "category": "Education",
+      "name": "ratio",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".ratio"
+    },
+    {
+      "category": "Education",
+      "name": "algebra",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".algebra"
+    },
+    {
+      "category": "Education",
+      "name": "geometry",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".geometry"
+    },
+    {
+      "category": "Education",
+      "name": "trigonometry",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".trigonometry"
+    },
+    {
+      "category": "Education",
+      "name": "calculus",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".calculus"
+    },
+    {
+      "category": "Education",
+      "name": "statistics",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".statistics"
+    },
+    {
+      "category": "Education",
+      "name": "probability",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".probability"
+    },
+    {
+      "category": "Education",
+      "name": "vectors",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".vectors"
+    },
+    {
+      "category": "Education",
+      "name": "mechanics",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".mechanics"
+    },
+    {
+      "category": "Education",
+      "name": "electricity",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".electricity"
+    },
+    {
+      "category": "Education",
+      "name": "waves",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".waves"
+    },
+    {
+      "category": "Education",
+      "name": "organic",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".organic"
+    },
+    {
+      "category": "Education",
+      "name": "inorganic",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".inorganic"
+    },
+    {
+      "category": "Education",
+      "name": "mole",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".mole"
+    },
+    {
+      "category": "Education",
+      "name": "acids",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".acids"
+    },
+    {
+      "category": "Education",
+      "name": "bases",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".bases"
+    },
+    {
+      "category": "Education",
+      "name": "cells",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".cells"
+    },
+    {
+      "category": "Education",
+      "name": "respiration",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".respiration"
+    },
+    {
+      "category": "Education",
+      "name": "photosynthesis",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".photosynthesis"
+    },
+    {
+      "category": "Education",
+      "name": "ecology",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".ecology"
+    },
+    {
+      "category": "Education",
+      "name": "genetics",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".genetics"
+    },
+    {
+      "category": "Education",
+      "name": "evolution",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".evolution"
+    },
+    {
+      "category": "Education",
+      "name": "anatomy",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".anatomy"
+    },
+    {
+      "category": "Education",
+      "name": "physiology",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".physiology"
+    },
+    {
+      "category": "Education",
+      "name": "microbiology",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".microbiology"
+    },
+    {
+      "category": "Education",
+      "name": "astronomy",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".astronomy"
+    },
+    {
+      "category": "Education",
+      "name": "geology",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".geology"
+    },
+    {
+      "category": "Education",
+      "name": "geography",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".geography"
+    },
+    {
+      "category": "Education",
+      "name": "history",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".history"
+    },
+    {
+      "category": "Education",
+      "name": "government",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".government"
+    },
+    {
+      "category": "Education",
+      "name": "economics",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".economics"
+    },
+    {
+      "category": "Education",
+      "name": "commerce",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".commerce"
+    },
+    {
+      "category": "Education",
+      "name": "accounting",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".accounting"
+    },
+    {
+      "category": "Education",
+      "name": "literature",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".literature"
+    },
+    {
+      "category": "Education",
+      "name": "grammar",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".grammar"
+    },
+    {
+      "category": "Education",
+      "name": "vocabulary",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".vocabulary"
+    },
+    {
+      "category": "Education",
+      "name": "reading",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".reading"
+    },
+    {
+      "category": "Education",
+      "name": "writing",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".writing"
+    },
+    {
+      "category": "Education",
+      "name": "coding",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".coding"
+    },
+    {
+      "category": "Education",
+      "name": "javascript",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".javascript"
+    },
+    {
+      "category": "Education",
+      "name": "html",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".html"
+    },
+    {
+      "category": "Education",
+      "name": "css",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".css"
+    },
+    {
+      "category": "Education",
+      "name": "python",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".python"
+    },
+    {
+      "category": "Education",
+      "name": "algorithms",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".algorithms"
+    },
+    {
+      "category": "Education",
+      "name": "database",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".database"
+    },
+    {
+      "category": "Education",
+      "name": "cybersecurity",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".cybersecurity"
+    },
+    {
+      "category": "Education",
+      "name": "robotics",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".robotics"
+    },
+    {
+      "category": "Education",
+      "name": "engineering",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".engineering"
+    },
+    {
+      "category": "Education",
+      "name": "architecture",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".architecture"
+    },
+    {
+      "category": "Education",
+      "name": "research",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".research"
+    },
+    {
+      "category": "Education",
+      "name": "citation",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".citation"
+    },
+    {
+      "category": "Education",
+      "name": "plagiarism",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".plagiarism"
+    },
+    {
+      "category": "Education",
+      "name": "labreport",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".labreport"
+    },
+    {
+      "category": "Education",
+      "name": "project",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".project"
+    },
+    {
+      "category": "Education",
+      "name": "presentation",
+      "source": "src/commands/Education/core.js",
+      "smoke": ".presentation"
+    }
+  ]
+}
