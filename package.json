@@ -1,0 +1,20 @@
+{
+  "name": "nodax-ai-whatsapp",
+  "version": "1.0.0",
+  "description": "NODAX — a deterministic, extensible WhatsApp command bot by Musteqeem",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {"start":"node index.js","dev":"node --watch index.js","test":"node --test tests/*.test.js","doctor":"node deploy/doctor.js"},
+  "author": "Musteqeem",
+  "license": "MIT",
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@musteqeem/baileys": "^1.0.5",
+    "axios": "^1.13.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "pino": "^8.17.2",
+    "sharp": "^0.34.5"
+  }
+}
