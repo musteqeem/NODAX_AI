@@ -1,0 +1,4 @@
+const names=['antilink','antiinvite','antispam','antiflood','anticaps','antiemoji','antitag','antiword','antiscam','antiphishing','antirepeat','antilongtext','antiunicode','antiforward','antiimage','antivideo','antiaudio','antisticker','antidocument','anticontact','antilocation','antipoll','antiviewonce','anticall','antibot','antistatus','antidisappearing','antighost'];
+const aliases={antilink:['al'],antiinvite:['aii'],antiflood:['af'],antitag:['atag'],antiword:['aword'],antiscam:['ascam']};
+module.exports=names.map(name=>({name,alias:aliases[name]||[],category:'Defense',desc:`Configure ${name} protection`,usage:`.${name} on|off|status`,groupOnly:true,adminOnly:true,
+execute:async(s,m,{args,reply,store})=>{const g=store.group(m.chat),v=String(args[0]||'status').toLowerCase();if(v==='on'||v==='off'){g[name]=v==='on';store.save()}return reply(`🛡️ ${name}\nStatus: ${g[name]?'🟢 ON':'🔴 OFF'}\nUse .${name} on|off|status`)}}));
