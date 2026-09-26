@@ -1,0 +1,17 @@
+services:
+  - name: nodax-ai-whatsapp
+    type: web
+    instance_type: nano
+    regions:
+      - fra
+    build:
+      type: buildpack
+      build_command: npm ci
+    run_command: npm start
+    ports:
+      - port: 3000
+        protocol: http
+    health_checks:
+      - path: /health
+        port: 3000
+        protocol: http
