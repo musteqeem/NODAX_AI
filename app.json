@@ -1,0 +1,14 @@
+{
+  "name": "nodax-ai-whatsapp",
+  "description": "NODAX deterministic WhatsApp command bot by Musteqeem",
+  "repository": "https://github.com/your-org/nodax-ai",
+  "keywords": ["whatsapp", "baileys", "bot", "nodejs"],
+  "env": {
+    "PAIRING_PHONE": { "description": "International phone number without +, spaces, or dashes", "required": true },
+    "OWNER_NUMBERS": { "description": "Comma-separated owner phone numbers", "required": false },
+    "PREFIX": { "description": "Command prefix", "value": "." }
+  },
+  "formation": { "web": { "quantity": 1, "size": "basic" } },
+  "image": { "web": { "file": "Dockerfile" } },
+  "healthchecks": [{ "type": "http", "path": "/health", "port": 3000 }]
+}
