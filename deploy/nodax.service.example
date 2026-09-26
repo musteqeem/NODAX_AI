@@ -1,0 +1,15 @@
+[Unit]
+Description=NODAX WhatsApp Command Bot
+After=network-online.target
+
+[Service]
+Type=simple
+User=nodax
+WorkingDirectory=/opt/nodax
+EnvironmentFile=/opt/nodax/.env
+ExecStart=/usr/bin/node /opt/nodax/index.js
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
