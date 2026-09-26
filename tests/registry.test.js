@@ -1,0 +1,4 @@
+const test=require('node:test');const assert=require('node:assert/strict');const {CommandRegistry}=require('../src/core/commandRegistry');
+test('NODAX loads at least 200 commands with no module errors',()=>{const r=new CommandRegistry();const count=r.load();assert.ok(count>=200,`loaded ${count}`);assert.equal(r.errors.length,0,JSON.stringify(r.errors));assert.equal(r.commands.filter(x=>x.category==='Defense').length,30)});
+test('commands follow the XADON-compatible metadata contract',()=>{const r=new CommandRegistry();r.load();for(const c of r.commands){assert.match(c.name,/^[a-z0-9][a-z0-9-]*$/);assert.ok(Array.isArray(c.alias));assert.ok(c.category);assert.ok(c.desc);assert.ok(c.usage);assert.equal(typeof c.execute,'function')}});
+test('duplicate aliases do not overwrite the first handler',()=>{const r=new CommandRegistry();r.load();assert.equal(r.resolve('p')?.name,'ping');assert.equal(r.resolve('antilink')?.category,'Defense')});
